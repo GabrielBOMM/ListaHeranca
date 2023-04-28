@@ -1,0 +1,14 @@
+package Classes;
+
+// Classse Vendedor
+public class Vendedor extends Operario {
+    
+    // Variáveis
+    
+    
+    // Método Construtor
+    public Vendedor(String nome, String endereco, String telefone, int codigoSetor, float salarioBase, float impostoPorcentagem) {
+        super(nome, endereco, telefone, codigoSetor, salarioBase, impostoPorcentagem);
+    }
+    
+}

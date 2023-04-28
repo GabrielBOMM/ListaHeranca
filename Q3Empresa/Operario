@@ -1,0 +1,11 @@
+package Classes;
+
+// Classe Operário
+public class Operario extends Empregado{
+    
+    // Método Construtor
+    public Operario(String nome, String endereco, String telefone, int codigoSetor, float salarioBase, float impostoPorcentagem) {
+        super(nome, endereco, telefone, codigoSetor, salarioBase, impostoPorcentagem);
+    }
+    
+}
